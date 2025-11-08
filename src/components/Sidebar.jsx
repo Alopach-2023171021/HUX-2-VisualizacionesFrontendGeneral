@@ -28,7 +28,6 @@ export default function Sidebar({ isAbierto }) {
             ${isAbierto ? 'w-64' : 'w-20'} 
             flex-shrink-0 overflow-y-auto`}
         >
-            {/* Logo */}
             <div className="p-4 border-b border-gray-700">
                 <h2 className={`font-bold text-xl text-center 
                     ${!isAbierto && 'hidden'}`}>
@@ -39,7 +38,6 @@ export default function Sidebar({ isAbierto }) {
                 )}
             </div>
 
-            {/* Menu Items */}
             <nav className="mt-4">
                 <ul className="space-y-2 px-2">
                     {menuItems.map((item) => {
