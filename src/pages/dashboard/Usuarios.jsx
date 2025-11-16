@@ -25,11 +25,11 @@ export default function Usuarios() {
     }, []);
 
     const cargarUsuarios = async () => {
-       
+
     };
 
     const cargarProgramas = async () => {
-       
+
     };
 
     const abrirModal = (usuario = null) => {
@@ -37,19 +37,19 @@ export default function Usuarios() {
     };
 
     const cerrarModal = () => {
-       
+
     };
 
     const handleChange = (e) => {
-       
+
     };
 
     const handleCheckboxChange = (programaId) => {
-       
+
     };
 
     const guardarUsuario = async (e) => {
-       
+
     };
 
     return (
@@ -57,4 +57,3 @@ export default function Usuarios() {
         </div>
     );
 }
-             
